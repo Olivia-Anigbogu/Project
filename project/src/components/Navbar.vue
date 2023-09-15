@@ -1,0 +1,41 @@
+<template>
+    <header>
+        <div class="wrapper">
+            <div class="header">
+                <div class="right-img-9">
+                    <h1>
+                        <a href="index.html" class="logo"><span class="fa fa-bullhorn"
+                                aria-hidden="true"></span>Classified</a>
+                        <!-- if logo is image enable this   
+          <a class="logo" href="index.html">
+            <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
+          </a> -->
+                    </h1>
+                </div>
+                <div class="bottom-menu-content">
+                    <input type="checkbox" id="nav" />
+                    <label for="nav" class="menu-bar"></label>
+                    <nav>
+                        <div class="wrapper">
+                            <ul class="menu">
+                                <li><router-link to="/" class="link-nav">Home</router-link></li>
+                                <li><a href="contact.html" class="link-nav">Contact</a></li>
+                                <li><router-link to="/register" class="link-nav">Register</router-link></li>
+                                <li><router-link to="/login" class="link-nav">Login</router-link></li>
+                                <li class="nav-right-sty">
+                                    <router-link to="/post" class="btn button-eff button-eff-2"><span
+                                            class="fa fa-paper-plane-o" aria-hidden="true"></span>Post your ad </router-link>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+</template>
+<script>
+export default {
+    name: 'Navbar',
+}
+</script>
