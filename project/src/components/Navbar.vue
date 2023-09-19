@@ -19,12 +19,13 @@
                         <div class="wrapper">
                             <ul class="menu">
                                 <li><router-link to="/" class="link-nav">Home</router-link></li>
-                                <li><a href="contact.html" class="link-nav">Contact</a></li>
+                                <li><router-link to="/contact" class="link-nav">Contact</router-link></li>
                                 <li><router-link to="/register" class="link-nav">Register</router-link></li>
                                 <li><router-link to="/login" class="link-nav">Login</router-link></li>
                                 <li class="nav-right-sty">
                                     <router-link to="/post" class="btn button-eff button-eff-2"><span
-                                            class="fa fa-paper-plane-o" aria-hidden="true"></span>Post your ad </router-link>
+                                            class="fa fa-paper-plane-o" aria-hidden="true"></span>Post your ad
+                                    </router-link>
                                 </li>
                             </ul>
                         </div>
