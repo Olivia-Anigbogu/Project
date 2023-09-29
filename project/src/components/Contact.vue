@@ -5,7 +5,7 @@
             <div class="wrapper">
                 <h3 class="title-main">Contact Us</h3>
                 <div class="contact-form mx-auto pt-sm-4">
-                    <form method="post" action="https://sendmail.w3layouts.com/submitForm">
+                    <form method="post">
                         <div class="d-grid content-grids-cont">
                             <div class="form-group">
                                 <label for="w3lName">Name</label>

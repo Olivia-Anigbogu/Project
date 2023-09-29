@@ -12,7 +12,7 @@
                             account</p>
                     </div>
                     <div class="about-right-faq">
-                        <form @submit.prevent="onFormSubmit">
+                        <form action="#" method="post" @submit.prevent="onUpdateForm">
                             <div class="d-grid grid-col-2">
                                 <div class="ele-9its_grid">
                                     <h5>First Name</h5>
@@ -53,12 +53,8 @@
                                             placeholder="Years Of Experience">
                                     </div>
                                 </div>
-                                <div class="ele-9its_grid">
-                                    <!-- <h5>Profile Image</h5> -->
-                                    <input type="hidden" name="image" id="image" class="form-control" v-model="user.image">
-                                </div>
                             </div>
-                            <button type="submit" class="btn button-eff">Post Ad</button>
+                            <button type="submit" class="btn button-eff">Edit Ad</button>
                         </form>
                     </div>
                 </div>
@@ -69,29 +65,31 @@
 <script>
 import { db } from '../firebaseDb';
 export default {
-    name: 'PostForm',
+    name: 'EditForm',
     data() {
         return {
             user: {
-                image: "https://picsum.photos/200/300"
             }
         }
     },
+    created() {
+        let dbRef = db.collection('users').doc(this.$route.params.id);
+        dbRef.get().then((doc) => {
+            this.user = doc.data();
+        }).catch((error) => {
+            console.log(error)
+        })
+    },
     methods: {
-        onFormSubmit(event) {
+        onUpdateForm(event) {
             event.preventDefault()
-            db.collection('users').add(this.user).then(() => {
-                alert("User successfully created!");
-                this.user.firstName = ''
-                this.user.lastName = ''
-                this.user.phoneNumber = ''
-                this.user.emailAddress = ''
-                this.user.profession = ''
-                this.user.yearsOfExperience = ''
-                this.user.image = ''
-            }).catch((error) => {
-                console.log(error);
-            });
+            db.collection('users').doc(this.$route.params.id)
+                .update(this.user).then(() => {
+                    alert("User successfully updated!");
+                    this.$router.push('/home')
+                }).catch((error) => {
+                    console.log(error);
+                });
         }
     }
 }

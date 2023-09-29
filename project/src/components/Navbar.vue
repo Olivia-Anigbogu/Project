@@ -6,10 +6,6 @@
                     <h1>
                         <a href="index.html" class="logo"><span class="fa fa-bullhorn"
                                 aria-hidden="true"></span>Classified</a>
-                        <!-- if logo is image enable this   
-          <a class="logo" href="index.html">
-            <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
-          </a> -->
                     </h1>
                 </div>
                 <div class="bottom-menu-content">

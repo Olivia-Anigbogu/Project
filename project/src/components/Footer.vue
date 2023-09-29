@@ -64,17 +64,15 @@
                                     <h6>Contact </h6>
                                     <div class="column2">
                                         <div class="href1"><span><i class="fas fa-envelope"></i></span><a
-                                                href="https://p.w3layouts.com/cdn-cgi/l/email-protection#a8c1c6cec7e8cdd0c9c5d8c4cd86cbc7c5"><span
-                                                    class="__cf_email__"
-                                                    data-cfemail="b9d0d7dfd6f9dcc1d8d4c9d5dc97dad6d4">[email&#160;protected]</span></a>
+                                                href="mailto: oliviaanigbogu860@gmail.com">oliviaanigbogu860@gmail.com<span
+                                                    class="__cf_email__"></span></a>
                                         </div>
                                         <div class="href2"><span><i class="fas fa-phone"></i></span><a
-                                                href="tel:+44-000-888-999">+44-000-888-999</a>
+                                                href="tel:+2348068946359">+2348068946359</a>
                                         </div>
                                         <div>
-                                            <p class="contact-para"><span><i
-                                                        class="fas fa-map-marker"></i></span>London, 235
-                                                Terry, 10001</p>
+                                            <p class="contact-para"><span><i class="fas fa-map-marker"></i></span>Abuja,
+                                                Nigeria</p>
                                         </div>
                                     </div>
                                 </div>
@@ -90,26 +88,11 @@
                             <p>@2023 Classify. All rights reserved
                             </p>
                         </div>
-                        <ul class="text-right">
-                            <li><a href="#payment"><img src="assets/images/payment1.jpg" alt="" class="img-responsive"></a>
-                            </li>
-                            <li><a href="#payment"><img src="assets/images/payment2.jpg" alt="" class="img-responsive"></a>
-                            </li>
-                            <li><a href="#payment"><img src="assets/images/payment3.jpg" alt="" class="img-responsive"></a>
-                            </li>
-                            <li><a href="#payment"><img src="assets/images/payment4.jpg" alt="" class="img-responsive"></a>
-                            </li>
-                        </ul>
+
                     </div>
                 </div>
             </div>
             <!-- copyright -->
-            <!-- move top -->
-            <button onclick="" id="movetop" title="Go to top">
-                <span class="fa fa-arrow-up" aria-hidden="true"></span>
-            </button>
-
-            <!-- /move top -->
         </section>
     </footer>
 </template>

@@ -12,13 +12,13 @@
                             <span><i class="fas fa-tags"></i></span>
                             <div class="input-group-btn">
                                 <select class="btn btn-default" name="ext" required>
-                                    <option selected="">Select Category</option>
-                                    <option>Electronics </option>
-                                    <option>Furniture </option>
-                                    <option>Jobs</option>
-                                    <option>Real Estate</option>
-                                    <option>Sports</option>
-                                    <option>Health & Beauty</option>
+                                    <option selected="">Select Profession</option>
+                                    <option>Doctor </option>
+                                    <option>Lawyer </option>
+                                    <option>Banker</option>
+                                    <option>Software Engineer</option>
+                                    <option>Accountant</option>
+                                    <option>Engineer</option>
                                     <option>And more</option>
                                 </select>
                             </div>
