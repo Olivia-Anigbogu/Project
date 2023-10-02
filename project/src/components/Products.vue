@@ -76,7 +76,7 @@ export default {
                 })
             });
         });
-        console.log('users', this.Users);
+        console.log('users', this.User);
     },
     methods: {
         deleteUser(id) {
