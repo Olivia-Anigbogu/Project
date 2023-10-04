@@ -12,7 +12,7 @@
                         <form action="#" method="post" @submit.prevent="userRegistration">
                             <input type="text" name="username" class="input-form" placeholder="First and last name"
                                 required="required" v-model="user.name" />
-                            <input type="email" name="email" class="input-form" placeholder="Email" required="required"
+                            <input type="email" name="email" class="input-form" placeholder="Email" required
                                 v-model="user.email" />
                             <input type="password" name="password" class="input-form" placeholder="Password"
                                 required="required" v-model="user.password" />
