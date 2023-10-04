@@ -68,7 +68,7 @@ export default {
                     emailAddress: doc.data().emailAddress,
                     profession: doc.data().profession,
                     yearsOfExperience: doc.data().yearsOfExperience,
-                    img: "https://ui-avatars.com/api/?background=fff&color=000&name=" + doc.data().firstName + "+" + doc.data().lastName,
+                    img: "https://ui-avatars.com/api/?background=f85c70&color=000&name=" + doc.data().firstName + "+" + doc.data().lastName,
                 })
             });
         });
