@@ -20,7 +20,7 @@
                                 <li><router-link to="/login" class="link-nav">Login</router-link></li>
                                 <li class="nav-right-sty">
                                     <router-link to="/post" class="btn button-eff button-eff-2"><span
-                                            class="fa fa-paper-plane-o" aria-hidden="true"></span>Post
+                                            class="fa fa-paper-plane-o" aria-hidden="true"></span>Post Your Job
                                     </router-link>
                                 </li>
                             </ul>
