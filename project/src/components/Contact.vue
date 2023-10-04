@@ -38,7 +38,7 @@
                         </div>
                         <div class="text-left">
                             <h6>Location</h6>
-                            <p>The company name,
+                            <p>Gradlinq,
                                 <br>Nigeria.
                             </p>
                         </div>

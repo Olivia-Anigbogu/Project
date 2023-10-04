@@ -4,7 +4,7 @@
         <div class="forms23-block">
             <div class="wrapper">
                 <h1>
-                    <a href="index.html" class="logo-2"><span class="fa fa-bullhorn" aria-hidden="true"></span>Classify</a>
+                    <a href="index.html" class="logo-2"><span class="fa fa-bullhorn" aria-hidden="true"></span>Gradlinq</a>
                 </h1>
                 <div class="d-grid forms23-grids">
                     <div class="form23">
@@ -25,8 +25,9 @@
 
                     </div>
                     <div class="form23-text">
-                        <h3>Buy, Sell, Rent & Exchange in one Click</h3>
-                        <p>Classified ads best theme relies on fast and intuitive way of promoting your ads login now
+                        <h3>Showcase Your Career
+                            Details To Potential Employers</h3>
+                        <p>Best Networking Platform In The World With User Friendly Features.
                         </p>
                         <router-link to="/" class="btn button-eff button-eff-2"><span class="fa fa-hand-o-left"
                                 aria-hidden="true"></span> Back to Home</router-link>
@@ -57,9 +58,14 @@ export default {
                 .auth()
                 .createUserWithEmailAndPassword(this.user.email, this.user.password)
                 .then((res) => {
+                    // now we have access to the signed in user
+                    const user = firebase.auth().currentUser;
+                    // send the signed in user a verification email
+
+                    user.sendEmailVerification();
                     res.user
                         .updateProfile({
-                            displayName: this.user.name
+                            displayName: this.user.name,
                         })
                         .then(() => {
                             alert('You have been registered successfully')

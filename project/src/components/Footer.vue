@@ -5,15 +5,16 @@
                 <div class="wrapper">
                     <div class="text-txt">
                         <div class="right-side">
-                            <h4>Create Your Classified Website Today!</h4>
-                            <p class="para-sep">The Best Classified Ads Theme in the World <a href="#download">Download
-                                    Now</a></p>
+                            <h4>Post Your Career Details On Our Website Today!</h4>
+                            <p class="para-sep">The Best Networking Platform in the World <router-link to="/post">Post
+                                    Now</router-link></p>
                             <div class="sub-columns">
                                 <div class="sub-one-left">
                                     <h6>About </h6>
-                                    <p>olivia ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                                        doloremque
-                                        laudantium, totam rem aperiam, eaque ipsa quae ab.</p>
+                                    <p>Introducing a groundbreaking website where you can effortlessly showcase your career
+                                        details to potential employers. With user-friendly features, this platform allows
+                                        you to create a visually appealing and professional online profile, giving you a
+                                        competitive edge in the job market.</p>
                                     <div class="columns-2">
                                         <ul class="social">
                                             <li><a href="#instagram"><span><i class="fab fa-instagram"></i></span></a>
@@ -85,7 +86,7 @@
                 <div class="wrapper">
                     <div class="copyright-footer">
                         <div class="columns text-left">
-                            <p>@2023 Classify. All rights reserved
+                            <p>@2023 Gradlinq. All rights reserved
                             </p>
                         </div>
 

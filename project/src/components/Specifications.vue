@@ -10,7 +10,7 @@
               </div>
               <div>
                 <h3 class="title-spe">5000+</h3>
-                <p>Published Ads</p>
+                <p>Published Posts</p>
               </div>
             </div>
             <div class="grids-speci">
@@ -19,7 +19,7 @@
               </div>
               <div>
                 <h3 class="title-spe">3266+</h3>
-                <p>Register User</p>
+                <p>Registered User</p>
               </div>
             </div>
             <div class="grids-speci">
@@ -28,7 +28,7 @@
               </div>
               <div>
                 <h3 class="title-spe">2240+</h3>
-                <p>Verified Users</p>
+                <p>Signed In Users</p>
               </div>
             </div>
           </div>

@@ -5,7 +5,7 @@
                 <div class="right-img-9">
                     <h1>
                         <a href="index.html" class="logo"><span class="fa fa-bullhorn"
-                                aria-hidden="true"></span>Classified</a>
+                                aria-hidden="true"></span>Gradlinq</a>
                     </h1>
                 </div>
                 <div class="bottom-menu-content">

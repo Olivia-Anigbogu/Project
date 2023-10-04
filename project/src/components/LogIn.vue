@@ -6,7 +6,7 @@
                 <div class="wrapper">
                     <h1>
                         <a href="index.html" class="logo-2"><span class="fa fa-bullhorn"
-                                aria-hidden="true"></span>Classify</a>
+                                aria-hidden="true"></span>Gradlinq</a>
                     </h1>
                     <div class="d-grid forms23-grids">
                         <div class="form23">
@@ -25,12 +25,13 @@
 
                         </div>
                         <div class="form23-text">
-                            <h3>Buy, Sell, Rent & Exchange in one Click</h3>
-                            <p>Classified ads best theme relies on fast and intuitive way of promoting your ads login now
+                            <h3>Showcase Your Career
+                                Details To Potential Employers</h3>
+                            <p>Best Networking Platform In The World With User Friendly Features.
                             </p>
-                            <a href="index.html" class="btn button-eff button-eff-2"><span class="fa fa-hand-o-left"
+                            <router-link to="/" class="btn button-eff button-eff-2"><span class="fa fa-hand-o-left"
                                     aria-hidden="true"></span>
-                                Back to Home</a>
+                                Back to Home</router-link>
                         </div>
                     </div>
                 </div>

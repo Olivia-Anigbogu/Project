@@ -3,14 +3,10 @@
         <div id="products4-block" class="text-center">
             <div class="wrapper">
                 <input id="tab1" type="radio" name="tabs" checked>
-                <label class="tabtle" for="tab1">Latest Ads</label>
+                <label class="tabtle" for="tab1">Latest Posts</label>
 
                 <input id="tab2" type="radio" name="tabs">
-                <label class="tabtle" for="tab2">Featured Ads</label>
-
-                <input id="tab3" type="radio" name="tabs">
-                <label class="tabtle" for="tab3">Ending Soon</label>
-
+                <label class="tabtle" for="tab2">Featured Posts</label>
                 <section id="content1" class="tab-content text-left">
                     <div>
                         <div class="d-grid grid-col-3">
@@ -72,7 +68,7 @@ export default {
                     emailAddress: doc.data().emailAddress,
                     profession: doc.data().profession,
                     yearsOfExperience: doc.data().yearsOfExperience,
-                    img: "https://ui-avatars.com/api/?name=" + doc.data().firstName + "+" + doc.data().lastName,
+                    img: "https://ui-avatars.com/api/?background=f85c70&color=fff&name=" + doc.data().firstName + "+" + doc.data().lastName,
                 })
             });
         });

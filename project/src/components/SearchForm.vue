@@ -28,7 +28,7 @@
                             <div class="input-group-btn">
                                 <select class="btn btn-default" name="ext" required>
                                     <option selected="">Select Country</option>
-                                    <option>Australia</option>
+                                    <option>Nigeria</option>
                                     <option>London</option>
                                     <option>India</option>
                                     <option>Bangladesh</option>

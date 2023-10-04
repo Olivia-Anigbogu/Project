@@ -3,11 +3,12 @@
     <div class="w3l-post-sec-main">
         <div class="post-se sec-padding">
             <div class="wrapper">
-                <h3 class="title-main">Post Your Ad</h3>
+                <h3 class="title-main">Post Your Work Experience</h3>
                 <div class="post-cont">
                     <div class="heading-sec">
-                        <h5>Post Free Ad</h5>
-                        <p><span class="fa fa-gift" aria-hidden="true"></span>Post ad to earn <b>Cash Back</b> in
+                        <h5>Free Post</h5>
+                        <p><span class="fa fa-gift" aria-hidden="true"></span>Post work experience to earn <b>Cash Back</b>
+                            in
                             your
                             account</p>
                     </div>
@@ -58,7 +59,7 @@
                                     <input type="hidden" name="image" id="image" class="form-control" v-model="user.image">
                                 </div>
                             </div>
-                            <button type="submit" class="btn button-eff">Post Ad</button>
+                            <button type="submit" class="btn button-eff">Post</button>
                         </form>
                     </div>
                 </div>
