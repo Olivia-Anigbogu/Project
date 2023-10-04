@@ -5,27 +5,26 @@
             <div class="wrapper">
                 <h3 class="title-main">Contact Us</h3>
                 <div class="contact-form mx-auto pt-sm-4">
-                    <form method="post">
+                    <form action="https://formspree.io/f/xnqkogyy" method="POST">
                         <div class="d-grid content-grids-cont">
                             <div class="form-group">
-                                <label for="w3lName">Name</label>
-                                <input type="text" class="form-control" name="w3lName" id="w3lName" placeholder=""
-                                    required="">
+                                <label for="name">Name</label>
+                                <input type="text" class="form-control" name="name" id="w3lName" placeholder="" required="">
                             </div>
                             <div class="form-group">
                                 <label for="w3lSender">Email</label>
-                                <input type="email" class="form-control" name="w3lSender" id="w3lSender" placeholder=""
+                                <input type="email" class="form-control" name="email" id="w3lSender" placeholder=""
                                     required="">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="w3lSubject">Subject</label>
-                            <input type="text" class="form-control" name="w3lSubject" id="w3lSubject" placeholder=""
+                            <input type="text" class="form-control" name="subject" id="w3lSubject" placeholder=""
                                 required="">
                         </div>
                         <div class="form-group">
                             <label for="w3lSubject">How can we help?</label>
-                            <textarea name="w3lMessage" id="w3lMessage" class="form-control" placeholder=""
+                            <textarea name="message" id="w3lMessage" class="form-control" placeholder=""
                                 required=""></textarea>
                         </div>
                         <button type="submit" class="btn button-eff button-eff-2">Submit</button>
