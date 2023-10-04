@@ -16,7 +16,7 @@
                                 v-model="user.email" />
                             <input type="password" name="password" class="input-form" placeholder="Password"
                                 required="required" v-model="user.password" />
-                            <input type="text" name="number" class="input-form" placeholder="Phone number (optional)"
+                            <input type="text" name="number" class="input-form" placeholder="Phone number"
                                 required="required" v-model="user.phoneNumber" />
                             <p>By signing up, you agree to our <a href="#terms">Terms of Use</a></p>
                             <button type="submit" class="btn button-eff">Sign Up</button>
