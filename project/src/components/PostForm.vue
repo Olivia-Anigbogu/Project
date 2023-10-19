@@ -82,7 +82,7 @@ export default {
         onFormSubmit(event) {
             event.preventDefault()
             db.collection('users').add(this.user).then(() => {
-                alert("Post Successfully Created!");
+                console.log("Post Successfully Created!");
                 this.user.firstName = ''
                 this.user.lastName = ''
                 this.user.phoneNumber = ''
